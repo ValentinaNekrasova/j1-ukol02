@@ -46,7 +46,7 @@ public class HlavniProgram {
 
         //ukol03-lokomotiva
 
-        nakresliCtverecObdelnik(100, 200);
+        /*nakresliCtverecObdelnik(100, 200);
         zofka.turnLeft(60);
         nakresliRvnstTroj(100);
         zofka.turnLeft(120);
@@ -58,7 +58,7 @@ public class HlavniProgram {
         nakresliCtverecObdelnik(200,100);
         zofka.setLocation(zofka.getX()+0, zofka.getY()-22);
         zofka.turnRight(180);
-        nakresliKruh(18);
+        nakresliKruh(18);*/
     }
 
     private void nakresliRvnstTroj ( double delkaStrany ) {/* Rovnostranny trojuhelnik */
