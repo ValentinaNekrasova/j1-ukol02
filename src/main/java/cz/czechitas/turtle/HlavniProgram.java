@@ -25,14 +25,14 @@ public class HlavniProgram {
 
     }
 
-    private void nakresliRvnstTroj ( int delkaStrany ) {/* Rovnostranny trojuhelnik */
+    private void nakresliRvnstTroj ( double delkaStrany ) {/* Rovnostranny trojuhelnik */
         for ( int i=0;i<3;i++) {
             zofka.move(delkaStrany);
             zofka.turnRight(120);
         }
     }
 
-    private void nakresliCtverecObdelnik ( int delkaStranyA, int delkaStranyB){ /* Ctverec */
+    private void nakresliCtverecObdelnik ( double delkaStranyA, double delkaStranyB){ /* Ctverec */
         for ( int i=0;i<2;i++){
             zofka.move(delkaStranyA);
             zofka.turnRight(90);
@@ -41,7 +41,7 @@ public class HlavniProgram {
         }
     }
     
-    private void nakresliKruh ( int krok){
+    private void nakresliKruh ( double krok){
         for (int i = 0; i < 18; i++) {
             zofka.move(krok);
             zofka.turnLeft(20.0);
