@@ -25,11 +25,24 @@ public class HlavniProgram {
 
         //ukol03-zmrzlina
 
-        zofka.turnLeft(150);
+        /*zofka.turnLeft(150);
         nakresliRvnstTroj(150);
         zofka.turnRight(180);
-        nakresliKruh(33);
+        nakresliKruh(33);*/
 
+        //ukol03-snehulak
+
+        zofka.setLocation (zofka.getX()+0,zofka.getY()+100);
+        zofka.turnLeft(90);
+        nakresliKruh(28);
+        zofka.setLocation(zofka.getX()-8, zofka.getY()-115);
+        nakresliKruh(20);
+        zofka.setLocation(zofka.getX()-10, zofka.getY()-85);
+        nakresliKruh(15);
+        zofka.setLocation(zofka.getX()+80, zofka.getY()+130);
+        nakresliKruh(8);
+        zofka.setLocation(zofka.getX()-155, zofka.getY()-0);
+        nakresliKruh(8);
     }
 
     private void nakresliRvnstTroj ( double delkaStrany ) {/* Rovnostranny trojuhelnik */
