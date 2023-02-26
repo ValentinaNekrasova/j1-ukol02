@@ -6,7 +6,7 @@ public class HlavniProgram {
     private Turtle zofka = new Turtle();
 
     public void start() {
-        nakresliRvnstTroj(40); // nakresli rovnostranny trojuhelnik
+        /*nakresliRvnstTroj(40); // nakresli rovnostranny trojuhelnik
         zofka.setLocation(zofka.getX()+100, zofka.getY()+100);
 
         nakresliRvnstTroj(100); // nakresli rovnostranny trojuhelnik
@@ -21,7 +21,14 @@ public class HlavniProgram {
 
         zofka.setLocation(zofka.getX()-150, zofka.getY()-50);
 
-        nakresliKruh(50);
+        nakresliKruh(50);*/
+
+        //ukol03-zmrzlina
+
+        zofka.turnLeft(150);
+        nakresliRvnstTroj(150);
+        zofka.turnRight(180);
+        nakresliKruh(33);
 
     }
 
